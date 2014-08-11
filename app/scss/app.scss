@@ -1,0 +1,53 @@
+/* ==========================================================================
+   App Stylesheet
+   app.scss
+   ========================================================================== */
+
+
+/* Vendor Styles and Setting (foundation > settings)
+   ======================================================================== */
+@import "foundation";
+@import "settings";
+
+
+/* Mixins (User defined mixins)
+   ======================================================================== */
+
+
+/* Components
+   ======================================================================== */
+@import "components/base";
+
+body {
+	background-color: #99CCCC;
+}
+
+h3 {
+	font-family: "Times New Roman";
+}
+
+.panel {
+    background-color: orange;
+    box-shadow: 10px 10px 5px #CCCC00;
+}
+
+img {
+    right: 50px;
+}
+
+h1 {
+    text-shadow: 5px 5px 5px white;
+    font-family: "Courier New", Courier, monospace
+}
+
+h2 {
+    border: 2px solid #a1a1a1;
+    padding: 5px 5px; 
+    background: orange;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;
+    border-top:thick double #ff0000;
+    border-bottom:thick double #ff0000;
+}
